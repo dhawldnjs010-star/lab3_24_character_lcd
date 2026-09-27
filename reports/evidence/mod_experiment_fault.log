@@ -1,0 +1,11 @@
+RUN /usr/bin/iverilog -g2012 -Wall -I /home/claude/lab3/projects/lab3_24_character_lcd/src -I /home/claude/lab3/projects/lab3_24_character_lcd/sim -s tb_design -o /home/claude/lab3/projects/lab3_24_character_lcd/build/sim/run-1db7892848d649d18ae2d74fc3f15825/sim.vvp /home/claude/lab3/projects/lab3_24_character_lcd/src/design.v /home/claude/lab3/projects/lab3_24_character_lcd/sim/tb_design.v
+
+RUN /usr/bin/vvp -N /home/claude/lab3/projects/lab3_24_character_lcd/build/sim/run-1db7892848d649d18ae2d74fc3f15825/sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+PASS: idx=0 rs=0 data=38
+PASS: idx=1 rs=0 data=38
+PASS: idx=2 rs=0 data=38
+FATAL: /home/claude/lab3/projects/lab3_24_character_lcd/sim/tb_design.v:67: FAIL idx=3 rw=0 rs(exp=0 got=0) data(exp=0c got=0d)
+       Time: 890000  Scope: tb_design
+
+ERROR: 종료 코드 1: /home/claude/lab3/projects/lab3_24_character_lcd/build/sim/run-1db7892848d649d18ae2d74fc3f15825/simulation.log
