@@ -1,0 +1,54 @@
+# 시뮬레이션 실행 결과 (status=SIMULATED, run=run-b13bf6b7c70c4cdd871dcfc28aacd236)
+
+## compile.log
+```
+
+```
+
+## simulation.log
+```
+VCD info: dumpfile wave.vcd opened for output.
+PASS: idx=0 rs=0 data=38
+PASS: idx=1 rs=0 data=38
+PASS: idx=2 rs=0 data=38
+PASS: idx=3 rs=0 data=0c
+PASS: idx=4 rs=0 data=06
+PASS: idx=5 rs=0 data=01
+PASS: idx=6 rs=0 data=80
+PASS: idx=7 rs=1 data=46
+PASS: idx=8 rs=1 data=50
+PASS: idx=9 rs=1 data=47
+PASS: idx=10 rs=1 data=41
+PASS: idx=11 rs=1 data=20
+PASS: idx=12 rs=1 data=4c
+PASS: idx=13 rs=1 data=41
+PASS: idx=14 rs=1 data=42
+PASS: idx=15 rs=1 data=33
+PASS: idx=16 rs=1 data=20
+PASS: idx=17 rs=1 data=20
+PASS: idx=18 rs=1 data=20
+PASS: idx=19 rs=1 data=20
+PASS: idx=20 rs=1 data=20
+PASS: idx=21 rs=1 data=20
+PASS: idx=22 rs=1 data=20
+PASS: idx=23 rs=0 data=c0
+PASS: idx=24 rs=1 data=4c
+PASS: idx=25 rs=1 data=43
+PASS: idx=26 rs=1 data=44
+PASS: idx=27 rs=1 data=20
+PASS: idx=28 rs=1 data=43
+PASS: idx=29 rs=1 data=4f
+PASS: idx=30 rs=1 data=4e
+PASS: idx=31 rs=1 data=54
+PASS: idx=32 rs=1 data=52
+PASS: idx=33 rs=1 data=4f
+PASS: idx=34 rs=1 data=4c
+PASS: idx=35 rs=1 data=4c
+PASS: idx=36 rs=1 data=45
+PASS: idx=37 rs=1 data=52
+PASS: idx=38 rs=1 data=20
+PASS: idx=39 rs=1 data=20
+LAB3_LCD_PASS bytes=40
+/home/claude/lab3/projects/lab3_24_character_lcd/sim/tb_character_lcd.sv:75: $finish called at 8130000 (1ps)
+
+```
